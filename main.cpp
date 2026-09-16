@@ -37,7 +37,7 @@ int main(void) {
     const int screenHeight = 800;
 
     InitWindow(screenWidth, screenHeight, "Arbore 2D - Fractal");
-    SetTargetFPS(60);
+    SetTargetFPS(120);
 
     while (!WindowShouldClose()) {
         // Control pași cu săgețile Sus/Jos
